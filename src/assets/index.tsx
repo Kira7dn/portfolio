@@ -28,7 +28,6 @@ import threejs from "./tech/threejs.svg";
 import graphql from "./tech/graphql.png";
 import mui from "./tech/mui.png";
 import leansigma from "./tech/leansigma.png";
-import plc from "./tech/plc.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -72,7 +71,6 @@ export {
   graphql,
   mui,
   leansigma,
-  plc,
   meta,
   shopify,
   starbucks,
