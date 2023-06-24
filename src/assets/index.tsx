@@ -34,7 +34,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import lg from "./company/lg.png";
-import canon from "./company/canon.png";
+import canon from "./company/canonlogo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
