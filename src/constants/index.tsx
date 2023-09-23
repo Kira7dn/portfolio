@@ -19,6 +19,8 @@ import {
   canon,
   youtubeClone,
   financeDashboard,
+  ecommerce,
+  movieStream,
 } from "../assets";
 
 export const navLinks = [
@@ -112,7 +114,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Fullstack Developer",
+    title: "Software Developer & Data Analyst",
     company_name: "LG Innotek",
     icon: lg,
     iconBg: "#383E56",
@@ -189,9 +191,61 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Video Streaming",
+    description:
+      "[Personal Project] Front-End for stream app which provide stream service for Movie, TV Series. Where you can access popular stream services as Netflix, HBO max, Prime, Disney+ combine to only one platform.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tmdbapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: movieStream,
+    source_code_link: "https://github.com/Kira7dn/Movie-Stream/",
+    demo_live_link: "https://main--strong-kringle-817b2e.netlify.app/",
+  },
+  {
+    name: "Fashion Ecommerce",
+    description:
+      "[Personal Project] Shop the Latest Trendsetting Fashion for Women\n Unleash Your Unique Charm with Our Modern and Seductive Collection. Become the center of attention with our latest fashion trends.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidbapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/Kira7dn/ecommerce",
+    demo_live_link: "https://main--astonishing-lebkuchen-779e4c.netlify.app/",
+  },
+  {
     name: "Finance Dashboard",
     description:
-      "Introducing the spectacular Web-based Dashboard, designed to empower administrators with ability to visualize business performance metrics, including revenue, profit, top sales. Provide business insights, and offers solutions to optimization.",
+      "Introducing the spectacular Web-based Dashboard, designed to empower administrators with ability to visualize business performance metrics, including revenue, profit, top sales.",
     tags: [
       {
         name: "react",

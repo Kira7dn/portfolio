@@ -40,6 +40,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import financeDashboard from "./financeDashboard.png";
 import youtubeClone from "./YoutubeClone.png";
+import movieStream from "./MovieStream.png";
+import ecommerce from "./ecommerce.png";
 
 export {
   data,
@@ -81,4 +83,6 @@ export {
   jobit,
   youtubeClone,
   financeDashboard,
+  movieStream,
+  ecommerce,
 };
