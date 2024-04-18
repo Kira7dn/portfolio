@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
   redux,
   nodejs,
   mongodb,
@@ -21,6 +22,7 @@ import {
   financeDashboard,
   ecommerce,
   movieStream,
+  Workspace,
 } from "../assets";
 
 export const navLinks = [
@@ -81,6 +83,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -191,6 +197,34 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Workspace Social Network",
+    description:
+      "Fullstack Nextjs Application to Transform Your Office Experience with Our Digital Workspace by Streamline task management, communication, and performance tracking in one centralized platform.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Workspace,
+    source_code_link:
+      "https://github.com/Kira7dn/social-network",
+    demo_live_link:
+      "https://social-network-ruddy.vercel.app/",
+  },
+  {
     name: "Video Streaming",
     description:
       "[Personal Project] Front-End for stream app which provide stream service for Movie, TV Series. Where you can access popular stream services as Netflix, HBO max, Prime, Disney+ combine to only one platform.",
@@ -213,8 +247,10 @@ const projects = [
       },
     ],
     image: movieStream,
-    source_code_link: "https://github.com/Kira7dn/Movie-Stream/",
-    demo_live_link: "https://main--strong-kringle-817b2e.netlify.app/",
+    source_code_link:
+      "https://github.com/Kira7dn/Movie-Stream/",
+    demo_live_link:
+      "https://main--strong-kringle-817b2e.netlify.app/",
   },
   {
     name: "Fashion Ecommerce",
@@ -239,8 +275,10 @@ const projects = [
       },
     ],
     image: ecommerce,
-    source_code_link: "https://github.com/Kira7dn/ecommerce",
-    demo_live_link: "https://main--astonishing-lebkuchen-779e4c.netlify.app/",
+    source_code_link:
+      "https://github.com/Kira7dn/ecommerce",
+    demo_live_link:
+      "https://main--astonishing-lebkuchen-779e4c.netlify.app/",
   },
   {
     name: "Finance Dashboard",
@@ -261,8 +299,10 @@ const projects = [
       },
     ],
     image: financeDashboard,
-    source_code_link: "https://github.com/Kira7dn/Finance-Dashboard",
-    demo_live_link: "https://finance-dashboard-gx0w8nup5-kira7dn.vercel.app",
+    source_code_link:
+      "https://github.com/Kira7dn/Finance-Dashboard",
+    demo_live_link:
+      "https://finance-dashboard-gx0w8nup5-kira7dn.vercel.app",
   },
   {
     name: "Youtube Clone",
@@ -283,9 +323,17 @@ const projects = [
       },
     ],
     image: youtubeClone,
-    source_code_link: "https://github.com/Kira7dn/youtube-clone",
-    demo_live_link: "https://lovely-jelly-d5e99e.netlify.app/",
+    source_code_link:
+      "https://github.com/Kira7dn/youtube-clone",
+    demo_live_link:
+      "https://lovely-jelly-d5e99e.netlify.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+};

@@ -18,6 +18,7 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import nextjs from "./tech/Nextjs.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -42,6 +43,7 @@ import financeDashboard from "./financeDashboard.png";
 import youtubeClone from "./YoutubeClone.png";
 import movieStream from "./MovieStream.png";
 import ecommerce from "./ecommerce.png";
+import Workspace from "./Workspace.png";
 
 export {
   data,
@@ -66,6 +68,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
@@ -85,4 +88,5 @@ export {
   financeDashboard,
   movieStream,
   ecommerce,
+  Workspace,
 };
